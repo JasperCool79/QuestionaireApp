@@ -85,7 +85,6 @@ export default function BasicTable() {
                     <TableBody>
                     {
                     tableData.length > 0 ? tableData.map((row) => {
-                        console.log(row)
                         return (
                             <TableRow
                             key={row.name}
