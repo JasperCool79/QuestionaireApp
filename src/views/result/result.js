@@ -27,6 +27,13 @@ function createData(name, value) {
         }
         data = info;
     }
+    if(name === "Country") {
+        let info = "";
+        for(let index in value) {
+            info += `${value[index]} ,`;
+        }
+        data = info;
+    }
   return { name, data};
 }
 
